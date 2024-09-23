@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">projeto_a2_apk</string>
+    <string name="projeto_a2_apk">Projeto A2 - APK</string>
+    <string name="calculadora_imc">Calculadora IMC</string>
+    <string name="pre_os_de_combust_veis">Preços de Combustíveis</string>
+    <string name="matr_cula_aluno">Matrícula Aluno</string>
+    <string name="fechar">Fechar</string>
+    <string name="disciplina_aplica_es_m_veis">Disciplina: Aplicações Móveis</string>
+    <string name="curso_tecnologia_em_an_lise_e_desenvolvimento_de_sistemas">Curso: Tecnologia em Análise e Desenvolvimento de Sistemas</string>
+    <string name="rgm_34730753">RGM: 34730753</string>
+    <string name="nome_gustavo_silva_agapio">Nome: Gustavo Silva Agapio</string>
+    <string name="x">X</string>
+    <string name="mat_aluno">Matrícula Aluno</string>
+    <string name="calc_imc">Calculadora IMC</string>
+    <string name="xx">X</string>
+    <string name="peso_em_kg">Peso (em kg)</string>
+    <string name="altura_em_cm">Altura (em cm)</string>
+    <string name="imc">IMC:</string>
+    <string name="resultado_imc">Resultado IMC</string>
+    <string name="classifica_o">Classificação</string>
+    <string name="enviar">Enviar</string>
+    <string name="limpar">Limpar</string>
+    <string name="conversor_de_pre_os_da_gasolina_e_etanol">Conversor de Preços da Gasolina e Etanol</string>
+    <string name="xxx">X</string>
+    <string name="escolha_o_tipo_de_combust_vel">Escolha o Tipo de Combustível</string>
+    <string name="r">R$:</string>
+    <string name="digite_o_pre_o_da_gasolina">Digite o Preço da Gasolina</string>
+    <string name="rs">R$:</string>
+    <string name="digite_o_pre_o_do_etanol">Digite o Preço do Etanol</string>
+    <string name="gasolina">Gasolina</string>
+    <string name="etanol">Etanol</string>
+    <string name="rela_o_do_pre_o">Relação do Preço</string>
+    <string name="melhor_combust_vel">Melhor Combustível</string>
+    <string name="lmpr">Limpar</string>
+</resources>

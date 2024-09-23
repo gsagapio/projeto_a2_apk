@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTituloHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/projeto_a2_apk"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColorLink="#4CAF50"
+        android:textSize="34sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Projeto A2 - APK" />
+
+    <Button
+        android:id="@+id/btIMC"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_margin="12dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/calculadora_imc"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#03A9F4"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTituloHome"
+        tools:text="Calculadora IMC" />
+
+    <Button
+        android:id="@+id/btGasolina"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_margin="12dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/pre_os_de_combust_veis"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF9800"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btMatricula"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btIMC"
+        tools:text="Preços de Combustíveis" />
+
+    <Button
+        android:id="@+id/btMatricula"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_margin="12dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/matr_cula_aluno"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#8BC34A"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btGasolina"
+        tools:text="Matrícula Aluno" />
+
+    <Button
+        android:id="@+id/btFechar"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_margin="12dp"
+        android:layout_weight="1"
+        android:insetRight="0dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/fechar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#F44336"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btMatricula"
+        tools:text="Fechar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
