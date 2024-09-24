@@ -65,25 +65,20 @@ public class ActivityGasolina extends AppCompatActivity {
             return;
         }
 
-        double gasolina = Double.parseDouble(gasolinaString);
-        double etanol = Double.parseDouble(etanolString);
-        double relacaoIdeal = 0.7;
-        double relacaoAtual = etanol / gasolina;
+        try {
+            double gasolina = Double.parseDouble(gasolinaString);
+            double etanol = Double.parseDouble(etanolString);
+            double relacaoIdeal = 0.7;
+            double relacaoAtual = etanol / gasolina;
 
-        if (rbEtanol.isChecked()) {
             if (relacaoAtual <= relacaoIdeal) {
                 melhorCombustivel.setText("Abasteça com Etanol");
             } else {
                 melhorCombustivel.setText("Abasteça com Gasolina");
             }
-            relacaoPreco.setText("Diferença de: " + String.format("%.2f", (relacaoAtual * 100)) + "%");
-        } else if (rbGasolina.isChecked()) {
-            if (relacaoAtual > relacaoIdeal) {
-                melhorCombustivel.setText("Abasteça com Etanol");
-            } else {
-                melhorCombustivel.setText("Abasteça com Gasolina");
-            }
-            relacaoPreco.setText("Diferença de: " + String.format("%.2f", (1 / relacaoAtual * 100)) + "%");
+            relacaoPreco.setText("Relação: " + String.format("%.2f", relacaoAtual * 100) + "%");
+        } catch (NumberFormatException e) {
+            melhorCombustivel.setText("Valores inválidos");
         }
     }
 
